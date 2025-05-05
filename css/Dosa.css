@@ -8,9 +8,9 @@
     --text-color: white;
 }
 
-body {
+/* body {
     max-width: 100%;
-}
+} */
 
 header {
     background-color: #000;
@@ -45,17 +45,39 @@ p {
 
 img {
     max-width: 80%;
-    margin: 8em;
+    margin: 2em;
 }
 
-@media (width: 289px) {
+@media (width: 389px) {
    
     p {
-        font-size: 2rem;
+        font-size: 1.2rem;
     }
    
     img {
-        max-width: 80%;
+        max-width:100%;
         margin: 2em;
+    }
+}
+
+@media (width: 567px) {
+    p {
+        font-size: 1.8rem;
+    }
+   
+    img {
+        max-width:100%;
+        margin: 4em;
+    }
+}
+
+@media (width: 889px) {
+    p {
+        font-size: 3rem;
+    }
+   
+    img {
+        max-width:100%;
+        margin: 6em;
     }
 }
